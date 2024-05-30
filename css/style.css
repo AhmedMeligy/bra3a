@@ -211,14 +211,9 @@ button {
     background-color: transparent !important;
 }
 
-.mr-auto,
-.mx-auto {
-    margin: 0 auto;
-    text-align: center;
-}
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 15px;
+    margin-right: 50px;
     font-size: 21px;
     color: #fefefd;
     text-transform: uppercase;
@@ -229,7 +224,7 @@ button {
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fefefd;
-    background-color: #f01c1c;
+    background-color: #32BEA4;
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
@@ -237,7 +232,7 @@ button {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
     color: #fefefd;
-    background-color: #f01c1c;
+    background-color: #32BEA4;
 }
 
 .navbar-brand {
@@ -247,6 +242,8 @@ button {
 
 .navbar {
     padding: 0px 0px 20px 0px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, .15);
 }
 
 .navbar-brand{
@@ -278,7 +275,17 @@ button {
     line-height: 90px;
     text-shadow:
         -1px -1px 0 #000,  
-         5px -1px 0 #000,
+         2px -1px 0 #32BEA4,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+.banner_taital2{
+    font-size: 60px;
+    color: #fefefd;
+    font-weight: 800;
+    text-shadow:
+        -1px -1px 0 #000,  
+         1px -1px 0 #32BEA4,
         -1px  1px 0 #000,
          1px  1px 0 #000;
 }
@@ -286,13 +293,13 @@ button {
 .banner_text {
     width: 100%;
     float: left;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     color: #fefefd;
     margin: 20px 0px 0px 0px;
     text-shadow:
         -1px -1px 0 #000,  
-         3px -1px 0 #000,
+         1px -1px 0 #32BEA4,
         -1px  1px 0 #000,
          1px  1px 0 #000;
 }
@@ -317,13 +324,13 @@ button {
 
 .about_bt a:hover {
     color: #fefefd;
-    background-color: #f01c1c;
+    background-color: #32BEA4;
 }
 
 
 .about_bt.active a {
     color: #fefefd;
-    background-color: #f01c1c;
+    background-color: #32BEA4;
 }
 
 .callnow_bt {
@@ -346,7 +353,7 @@ button {
 
 .callnow_bt a:hover {
     color: #fefefd;
-    background-color: #f01c1c;
+    background-color: #32BEA4;
 }
 
 #banner_slider a.carousel-control-prev {
@@ -412,6 +419,121 @@ button {
 
 /* about section end */
 
+/* coffee section start */
+
+.coffee_section {
+    width: 100%;
+    float: left;
+}
+
+.coffee_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.coffee_section_2 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.coffee_img img {
+    width: 100%;
+    float: left;
+    height: 350px;
+}
+.coffee_box {
+    width: 100%;
+    float: left;
+    background-color: #242c2f;
+    height: auto;
+    padding: 20px 20px;
+}
+.coffee_box:hover {
+    background-color: #32BEA4;
+}
+
+.types_text {
+    width: 100%;
+    float: left;
+    font-size: 22px;
+    color: #fefefd;
+    text-align: center;
+    font-weight: bold;
+}
+
+.looking_text {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #fefefd;
+    text-align: center;
+    margin: 0px;
+}
+
+.read_bt {
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fefefd;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #fefefd;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.read_bt a:hover {
+    color: #fefefd;
+    border: 1px solid #fefefd;
+}
+
+#main_slider a.carousel-control-prev {
+    left: -50px;
+    top: 170px;
+}
+
+#main_slider a.carousel-control-next {
+    right: -50px;
+    top: 170px;
+
+}
+
+#main_slider .carousel-control-next,
+#main_slider .carousel-control-prev {
+    width: 55px;
+    height: 55px;
+    opacity: 1;
+    font-size: 16px;
+    color: #fefefd;
+    background-color: #4a4949;
+}
+
+#main_slider .carousel-control-next:focus,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-prev:hover {
+    color: #fefefd;
+    background-color: #32BEA4;
+}
+
+
+/* coffee section end */
 
 
 /* blog section start */
